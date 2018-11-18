@@ -1,0 +1,29 @@
+.formula span{
+    display: inline-block;
+}
+.formula span sup, .formula span sub {
+    display: block;
+    font-size: 65%;
+    line-height: 0;
+    position: relative;
+    /* vertical-align: baseline; */
+}
+.formula span sup {
+    top: -0.6em;
+}
+.formula span sub {
+    top: 0.4em;
+}
+.pepper {
+    background: #ED1C24; /* Фон */
+    min-height: 100px; /* Минимальная высота */
+    font: 60px Impact, sans-serif; /* Параметры шрифта */
+    color: #fff; /* Цвет текста */
+    white-space: nowrap; /* Запрещаем переносы текста */
+    padding-left: 20px; /* Отступ слева */
+    position: relative; /* Относительное позиционирование */
+   }
+   .pepper span {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: -13px; /* Сдвигаем текст вниз */
+   }
